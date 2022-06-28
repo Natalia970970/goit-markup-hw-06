@@ -738,16 +738,8 @@ margin-bottom: 0;
         fill: #ffffff;
     }
 
-    .subscribe-form {
-        display: flex;
-        align-items: flex-end;
-    }
-
     .subscribe-wrap {
         display: flex;
-        flex-direction: column;
-
-        margin-right: 12px;
     }
 
     .subscribe-label {
@@ -765,6 +757,8 @@ margin-bottom: 0;
     .subscribe-input {
         min-width: 358px;
         height: 50px;
+        margin-right: 12px;
+        padding: 15px 16px;
 
         background-color: transparent;
         border: 1px solid rgba(255, 255, 255, 0.3);
@@ -929,7 +923,7 @@ margin-bottom: 0;
 }
 
 .modal-title {
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 
     font-weight: 700;
     font-size: 20px;
@@ -942,6 +936,10 @@ margin-bottom: 0;
 
 .modal-field {
     margin-bottom: 10px;
+}
+
+.modal-field:last-child {
+    margin-bottom: 0;
 }
 
 .madal-lable {
@@ -1012,6 +1010,11 @@ margin-bottom: 0;
     letter-spacing: 0.01em;
 
     color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-agreement {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .check-text {
